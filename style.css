@@ -1,8 +1,7 @@
 *{margin: 0;
     padding: 0;
 }
-
-.cabecalho{background-color: rgba(255, 0, 0, 0.699);
+.cabecalho{background-color: rgb(165, 10, 10);
 color: white;
 display: flex;
 justify-content:space-around;
@@ -16,3 +15,10 @@ padding: 24px;
     width: 40%;
 }
 
+.cabecalho-lista-item{ 
+    display: inline-block; 
+    margin: 0 16px;
+    font-size: 24px;
+
+    
+}
