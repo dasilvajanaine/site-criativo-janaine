@@ -10,7 +10,6 @@
     justify-content: space-around;
     align-items: center;
     padding: 24px;
-    font-family: "Poppins", sans-serif;
 }
 
 
@@ -37,21 +36,43 @@
     padding: 24px 0;
 }
 
-.escola-driv-conteudo {
+.escola-div-conteudo {
     width: 35%;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
+
 }
 
 .escola-titulo {
     font-size: 35px;
     padding: 40px 0;
+
 }
 
 .estudante-imagem{
-    width: 11%;
+    width: 40%;
 }
 
 .estudante-icone{
-    width: 30px;
+    width: 35px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 20px 20px;
+
+}
+
+.estudantes{
+    background-image: linear-gradient( #b10e0e, #0c0404);
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 30px;
+    font-size: 32px;
+    color: white;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
