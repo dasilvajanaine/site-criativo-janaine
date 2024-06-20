@@ -47,32 +47,48 @@
 
 }
 
-.estudante-imagem{
+.estudante-imagem {
     width: 40%;
 }
 
-.estudante-icone{
+.estudante-icone {
     width: 35px;
 }
 
-.estudante-div{
+.estudante-div {
     text-align: center;
     padding: 20px 20px;
 
 }
 
-.estudantes{
-    background-image: linear-gradient( #b10e0e, #0c0404);
+.estudantes {
+    background-image: linear-gradient(#b10e0e, #0c0404);
 }
 
-.estudante-titulo{
+.estudante-nome {
+    color: white;
+
+}
+
+.estudante-titulo {
     text-align: center;
     padding: 30px;
     font-size: 32px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
-.estudante-todos{
+.estudante-todos {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+}
+
+.rodape {
+    background-color: #1b0808;
+    text-align: center;
+}
+
+.rodape-texto {
+    color: rgb(245, 237, 237);
+    font-size: 32px;
+    padding: 24px;
 }
